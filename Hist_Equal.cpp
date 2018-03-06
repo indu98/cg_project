@@ -15,7 +15,7 @@ int main( int argc, char** argv )
   char* equalized_window = "Equalized Image";
 
   /// Load image
-  src = imread("colored.jpg");
+  src = imread("original.png");
 
   if( !src.data )
     { cout<<"Usage: ./Histogram_Demo <path_to_image>"<<endl;

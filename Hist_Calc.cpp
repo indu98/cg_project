@@ -14,7 +14,7 @@ int main( int argc, char** argv )
   Mat src, dst;
 
   /// Load image
-  src = imread("rust_1.jpg");
+  src = imread( argv[1], 1 );
 
   if( !src.data )
     { return -1; }

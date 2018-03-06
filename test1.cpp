@@ -7,7 +7,7 @@ using namespace cv;
  
 int main()
 {
-    Mat image = imread("rust_1.jpg", CV_LOAD_IMAGE_GRAYSCALE);
+    Mat image = imread("rust1.jpg", CV_LOAD_IMAGE_GRAYSCALE);
  
     // allcoate memory for no of pixels for each intensity value
     int histogram[256];
